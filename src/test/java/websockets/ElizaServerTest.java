@@ -107,7 +107,6 @@ public class ElizaServerTest {
         }
 
         private class ElizaMessageHandlerToComplete implements MessageHandler.Whole<String> {
-
             @Override
             public void onMessage(String message) {
                 list.add(message);
